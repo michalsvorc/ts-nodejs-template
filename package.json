@@ -1,0 +1,67 @@
+{
+  "name": "ts-nodejs-template",
+  "version": "1.1.0",
+  "type": "module",
+  "description": "TypeScript Node.js application template.",
+  "author": "Michal Svorc <dev@michalsvorc.com>",
+  "repository": "michalsvorc/ts-nodejs-template",
+  "license": "MIT",
+  "packageManager": "yarn@3.2.4",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production yarn exec node scripts/build.mjs",
+    "bootstrap": "git config core.hooksPath .hooks",
+    "compile": "tsc --project tsconfig.build.json",
+    "dev": "yarn watch:src --exec 'yarn exec node scripts/dev.mjs'",
+    "fix": "yarn lint:es --fix && yarn format --write",
+    "format": "prettier --loglevel warn .",
+    "lint": "yarn lint:es && yarn lint:ts && yarn lint:format",
+    "lint:es": "eslint --cache --ignore-path .gitignore src",
+    "lint:format": "yarn format --check",
+    "lint:ts": "tsc --noemit --project tsconfig.json",
+    "qa": "yarn lint && yarn test",
+    "release": "standard-version",
+    "start": "yarn node dist/index.js",
+    "test": "yarn vitest --dir src",
+    "test:coverage": "yarn vitest --coverage --dir src",
+    "test:ci": "yarn vitest run --coverage --dir src",
+    "watch:src": "nodemon --watch src --ext ts --ignore '*.spec.ts'"
+  },
+  "dependencies": {
+    "nanoid": "4.0.0",
+    "set-value": "4.1.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "@tsconfig/node18": "^1.0.1",
+    "@types/eslint": "^8.4.9",
+    "@types/node": "^18.11.6",
+    "@types/prettier": "^2.7.1",
+    "@types/set-value": "^4.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "@vitest/coverage-c8": "^0.24.3",
+    "del-cli": "^5.0.0",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-node": "^11.1.0",
+    "execa": "^6.1.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1",
+    "standard-version": "^9.5.0",
+    "typescript": "^4.8.4",
+    "vite": "^3.2.1",
+    "vitest": "^0.24.3"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts"
+}
