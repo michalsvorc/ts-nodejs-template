@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.1](https://github.com/michalsvorc/ts-nodejs-template/compare/v1.5.0...v1.5.1) (2022-11-19)
+
+
+### Bug Fixes
+
+* **tsconfig:** node16 preset ([5c33339](https://github.com/michalsvorc/ts-nodejs-template/commit/5c33339bcb77febb7e6066dceb54cef773775a42))
+
 ## [1.5.0](https://github.com/michalsvorc/ts-nodejs-template/compare/v1.4.0...v1.5.0) (2022-11-19)
 
 
