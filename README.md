@@ -9,11 +9,6 @@ Overview:
 - Formatting: [Prettier](https://prettier.io)
 - Modules: [ESM only](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c)
 
-Does not work:
-
-- [vitest config file](https://vitest.dev/config/#configuration)
-- [ts-node](https://typestrong.org/ts-node/)
-
 ## Installation
 
 npm:
