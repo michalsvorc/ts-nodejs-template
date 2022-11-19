@@ -1,6 +1,6 @@
 {
   "name": "ts-nodejs-template",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "type": "module",
   "description": "TypeScript Node.js application template.",
   "author": "Michal Svorc <dev@michalsvorc.com>",
