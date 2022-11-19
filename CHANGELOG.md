@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/michalsvorc/ts-nodejs-template/compare/v1.6.0...v1.7.0) (2022-11-19)
+
+
+### Features
+
+* **config:** test extensions both spec and test ([aa49c36](https://github.com/michalsvorc/ts-nodejs-template/commit/aa49c36bd04424cb85e335c97ea3cef2d35926ec))
+
 ## [1.6.0](https://github.com/michalsvorc/ts-nodejs-template/compare/v1.5.1...v1.6.0) (2022-11-19)
 
 
