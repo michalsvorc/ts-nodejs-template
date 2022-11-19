@@ -13,6 +13,9 @@ yarn.lock
 /build/
 /lib/
 
+# Generated output
+/CHANGELOG.md
+
 # Yarn
 .yarn/*
 !.yarn/patches
