@@ -3,11 +3,11 @@
 Overview:
 
 - Language: [TypeScript](https://www.typescriptlang.org)
+- Module system: [ESM only](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c)
 - Package manager: [Yarn](https://yarnpkg.com) Plug'n'Play
-- Testing: [Jest](https://jestjs.io)
+- Testing: [Vitest](https://vitest.dev)
 - Linting: [TypeScript ESLint](https://typescript-eslint.io)
 - Formatting: [Prettier](https://prettier.io)
-- Modules: [ESM only](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c)
 
 ## Installation
 
