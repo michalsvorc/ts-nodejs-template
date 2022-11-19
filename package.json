@@ -6,7 +6,7 @@
   "author": "Michal Svorc <dev@michalsvorc.com>",
   "repository": "michalsvorc/ts-nodejs-template",
   "license": "MIT",
-  "packageManager": "yarn@3.2.4",
+  "packageManager": "yarn@3.3.0",
   "engines": {
     "node": ">=16"
   },
