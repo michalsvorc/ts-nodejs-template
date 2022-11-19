@@ -11,14 +11,13 @@ const options = { env };
 const { outDir } = tsconfig.compilerOptions;
 
 try {
-  console.log(env.NODE_ENV);
   if (env.NODE_ENV === "production") {
-    console.info("Cleaning directory", outDir);
+    console.info("Cleaning directories:", outDir);
     const clean = await execa("del-cli", [outDir], options);
     logger(clean);
   }
 
-  console.info("Build env", env);
+  console.info("Build env:", env);
   const compile = await execa("yarn", ["compile"], options);
   logger(compile);
 } catch (error) {
