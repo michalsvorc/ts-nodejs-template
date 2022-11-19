@@ -27,7 +27,7 @@
     "test": "yarn vitest --dir src",
     "test:coverage": "yarn vitest --dir src --coverage",
     "test:ci": "yarn vitest run --dir src --coverage",
-    "watch:src": "nodemon --watch src --ext ts --ignore '*.spec.ts'"
+    "watch:src": "nodemon --watch src --ext ts --ignore '*.{spec,test}.ts'"
   },
   "dependencies": {
     "nanoid": "4.0.0",
