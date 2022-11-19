@@ -1,7 +1,7 @@
 export default {
   test: {
     coverage: {
-      exclude: [".pnp.*"],
+      exclude: ["**/*.{spec,test}.ts", ".pnp.*"],
     },
   },
 };
