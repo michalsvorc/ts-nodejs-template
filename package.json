@@ -21,7 +21,7 @@
     "lint:es": "eslint --cache --ignore-path .gitignore src",
     "lint:format": "yarn format --check",
     "lint:ts": "tsc --noemit --project tsconfig.json",
-    "qa": "yarn lint && yarn test",
+    "qa": "yarn lint && yarn test:ci",
     "release": "standard-version",
     "start": "yarn node dist/index.js",
     "test": "yarn vitest --dir src",
