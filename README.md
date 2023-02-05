@@ -19,13 +19,13 @@ Overview:
 
 npm:
 
-```console
+```shell
 npm install --save ts-nodejs-template
 ```
 
 yarn:
 
-```console
+```shell
 yarn add ts-nodejs-template
 ```
 
@@ -48,13 +48,13 @@ console.log(result);
 
 Install dependencies and set up repository:
 
-```console
+```shell
 yarn install && yarn run bootstrap
 ```
 
 Development server:
 
-```console
+```shell
 yarn run dev
 ```
 
