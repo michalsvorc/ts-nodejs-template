@@ -9,6 +9,12 @@ Overview:
 - Linting: [TypeScript ESLint](https://typescript-eslint.io)
 - Formatting: [Prettier](https://prettier.io)
 
+## Content
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Development](#development)
+
 ## Installation
 
 npm:
