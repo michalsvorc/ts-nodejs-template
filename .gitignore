@@ -1,31 +1,15 @@
-# .env
-.env*
+# Local environment variables
+.env
+.env.*
 
 # Compiled output
 /dist/
-/build/
-/lib/
-
-# Yarn
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
-
-# Swap the comments on the following lines if you wish to use zero-installs
-# Documentation here: https://yarnpkg.com/features/zero-installs
-#!.yarn/cache
-.pnp.*
 
 # Dependency directories
 node_modules/
-jspm_packages/
 
-# Tests
+# Testing
 /coverage/
-.nyc_output
 *.lcov
 
 # Cache
@@ -35,15 +19,8 @@ jspm_packages/
 *.tsbuildinfo
 
 # Logs
+/logs/
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
-pnpm-debug.log*
-
-# Diagnostic reports (https://nodejs.org/api/report.html)
-report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Runtime data
 pids
@@ -52,14 +29,15 @@ pids
 *.pid.lock
 
 # IDEs and editors
-Session.vim
+*.idea
 *.launch
+*.njsproj
+*.ntvs*
+*.sln
 *.sublime-workspace
 *.suo
-*.ntvs*
-*.njsproj
-*.sln
 *.swp
+Session.vim
 
 # OS
 .DS_Store
