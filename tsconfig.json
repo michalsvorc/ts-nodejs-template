@@ -1,21 +1,20 @@
 {
-  "extends": "@tsconfig/node16/tsconfig.json",
   "compilerOptions": {
-    "module": "Node16",
-    "baseUrl": ".",
-    "importsNotUsedAsValues": "error",
-    "stripInternal": true,
-    /* Additional Checks */
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitOverride": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    /* Module Resolution Options */
-    "moduleResolution": "Node16",
-    "isolatedModules": true,
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["esnext", "dom"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "skipDefaultLibCheck": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true
+    "outDir": "./dist",
+    "declaration": true,
+    "inlineSourceMap": true,
+    "types": ["node"]
   },
-  "include": ["src/**/*.ts"]
+  "include": ["src/**/*.ts"],
+  "exclude": ["dist/**"]
 }
