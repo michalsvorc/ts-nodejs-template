@@ -6,6 +6,11 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended-type-checked',
+    /**
+     * Keep last to override other configs
+     * @link https://github.com/prettier/eslint-config-prettier
+     */
+    'prettier',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
