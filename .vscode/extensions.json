@@ -1,7 +1,6 @@
 {
   "recommendations": [
     "dbaeumer.vscode-eslint",
-    "zixuanchen.vitest-explorer",
-    "deinsoftware.vitest-snippets"
+    "zixuanchen.vitest-explorer"
   ]
 }
