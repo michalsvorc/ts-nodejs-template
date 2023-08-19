@@ -3,63 +3,50 @@
 Overview:
 
 - Language: [TypeScript](https://www.typescriptlang.org)
-- Module system: [ESM only](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c)
-- Package manager: [Yarn](https://yarnpkg.com) Plug'n'Play
+- Node.js engine: [vite-node](https://github.com/vitest-dev/vitest/tree/main/packages/vite-node)
+- Package manager: [pnpm](https://pnpm.io)
+  - [Installation](https://pnpm.io/installation)
+- Linting: [ESLint](https://eslint.org/)
+- Formatting: [Prettier](https://prettier.io/)
 - Testing: [Vitest](https://vitest.dev)
-- Linting: [TypeScript ESLint](https://typescript-eslint.io)
-- Formatting: [Prettier](https://prettier.io)
+- Module system: TBD
+
+Inspired by [Vitest repository](https://github.com/vitest-dev/vitest).
 
 ## Content
 
-- [Installation](#installation)
 - [Usage](#usage)
 - [Development](#development)
-
-## Installation
-
-npm:
-
-```shell
-npm install --save ts-nodejs-template
-```
-
-yarn:
-
-```shell
-yarn add ts-nodejs-template
-```
+- [Guidelines](#guidelines)
 
 ## Usage
 
-```typescript
-import { result } from "ts-nodejs-template";
-
-console.log(result);
+```javascript
+import result from 'ts-nodejs-template';
 ```
 
 ## Development
 
-### Requirements
-
-- [Yarn](https://yarnpkg.com/getting-started/install)
-- [Editor SDKs](https://yarnpkg.com/getting-started/editor-sdks)
-
-### Setup
-
-Install dependencies and set up repository:
+Install dependencies:
 
 ```shell
-yarn install && yarn run bootstrap
+pnpm install
 ```
 
-Development server:
+Start development server:
 
 ```shell
-yarn run dev
+pnpm run dev
 ```
 
-### Guidelines
+Run tests:
+
+```shell
+pnpm run test
+```
+
+## Guidelines
 
 - [TypeScript style guide](https://google.github.io/styleguide/tsguide.html)
 - [Conventional commits](https://github.com/conventional-changelog/commitlint#what-is-commitlint)
-- [Releases](https://github.com/conventional-changelog/standard-version)
+- [Conventional releases](https://github.com/conventional-changelog/standard-version)
