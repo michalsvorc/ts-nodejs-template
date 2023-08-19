@@ -1,5 +1,3 @@
-function hello(message: string): string {
+export function hello(message: string): string {
   return `Hello ${message}.`;
 }
-
-export { hello };
