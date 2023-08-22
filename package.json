@@ -16,6 +16,7 @@
   },
   "exports": "./dist/index.js",
   "scripts": {
+    "build": "node scripts/build.mjs",
     "dev": "vite-node --watch src",
     "fix": "npm-run-all --sequential fix:*",
     "fix:formatting": "prettier src --write --log-level warn",
@@ -37,6 +38,7 @@
     "@typescript-eslint/eslint-plugin": "^6.2.1",
     "@typescript-eslint/parser": "^6.2.1",
     "@vitest/coverage-v8": "^0.34.2",
+    "esbuild": "0.19.2",
     "eslint": "^8.46.0",
     "eslint-config-prettier": "^9.0.0",
     "npm-run-all": "^4.1.5",
