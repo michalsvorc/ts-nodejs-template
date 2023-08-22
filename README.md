@@ -3,13 +3,13 @@
 Overview:
 
 - Language: [TypeScript](https://www.typescriptlang.org)
+- Module format: [ESM](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c#file-esm-package-md)
 - Node.js engine: [vite-node](https://github.com/vitest-dev/vitest/tree/main/packages/vite-node)
 - Package manager: [pnpm](https://pnpm.io)
   - [Installation](https://pnpm.io/installation)
 - Linting: [ESLint](https://eslint.org/)
 - Formatting: [Prettier](https://prettier.io/)
 - Testing: [Vitest](https://vitest.dev)
-- Module system: TBD
 
 Inspired by [Vitest repository](https://github.com/vitest-dev/vitest).
 

@@ -14,6 +14,7 @@
   "engines": {
     "node": ">=18"
   },
+  "exports": "./dist/index.js",
   "scripts": {
     "dev": "vite-node --watch src",
     "fix": "npm-run-all --sequential fix:*",
