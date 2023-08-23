@@ -27,6 +27,12 @@ import result from 'ts-nodejs-template';
 
 ## Development
 
+Run repository bootstrap command:
+
+```shell
+pnpm run boot
+```
+
 Install dependencies:
 
 ```shell

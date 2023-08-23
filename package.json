@@ -16,6 +16,7 @@
   },
   "exports": "./dist/index.js",
   "scripts": {
+    "boot": "simple-git-hooks init",
     "build": "node scripts/build.mjs",
     "dev": "vite-node --watch src",
     "fix": "npm-run-all --sequential fix:*",
@@ -46,6 +47,7 @@
     "npm-run-all": "^4.1.5",
     "prettier": "^3.0.1",
     "shelljs": "^0.8.5",
+    "simple-git-hooks": "^2.9.0",
     "typescript": "^5.1.6",
     "vite-node": "^0.34.1",
     "vitest": "^0.34.1"
