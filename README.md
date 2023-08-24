@@ -55,4 +55,3 @@ pnpm run test
 
 - [TypeScript style guide](https://google.github.io/styleguide/tsguide.html)
 - [Conventional commits](https://github.com/conventional-changelog/commitlint#what-is-commitlint)
-- [Conventional releases](https://github.com/conventional-changelog/standard-version)
