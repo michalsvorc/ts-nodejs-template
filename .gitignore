@@ -39,6 +39,7 @@ pids
 *.pid.lock
 
 # IDEs and editors
+*.vscode
 *.idea
 *.launch
 *.njsproj
