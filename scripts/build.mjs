@@ -1,4 +1,4 @@
-import shell from 'shelljs';
+import {$} from 'execa';
 import esbuild from 'esbuild';
 
 const OUTPUT_DIRECTORY = 'dist';
@@ -13,17 +13,16 @@ const buildOptions = {
   logLevel: 'debug',
 };
 
-function clean() {
-  const path = `${OUTPUT_DIRECTORY}/*`;
-  console.info(`Cleaning ${path}`);
-  shell.rm('-rf', path);
+async function removeOutputDirectory() {
+  console.info(`Cleaning ${OUTPUT_DIRECTORY}`);
+  await $`rm -rf ${OUTPUT_DIRECTORY}`;
 }
 
 function build() {
   return esbuild.build(buildOptions);
 }
 
-clean();
+await removeOutputDirectory();
 build().catch((error) => {
   console.error(error);
   process.exit(1);

@@ -10,6 +10,7 @@ Overview:
 - Linting: [ESLint](https://eslint.org/)
 - Formatting: [Prettier](https://prettier.io/)
 - Testing: [Vitest](https://vitest.dev)
+- Scripting: [Execa](https://github.com/sindresorhus/execa/blob/main/docs/scripts.md)
 
 Inspired by [Vitest repository](https://github.com/vitest-dev/vitest).
 
