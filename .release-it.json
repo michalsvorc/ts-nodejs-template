@@ -1,0 +1,12 @@
+{
+  "git": {
+    "commitMessage": "chore(release): ${version}"
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "preset": {
+        "name": "conventionalcommits"
+      }
+    }
+  }
+}
