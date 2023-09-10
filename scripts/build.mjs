@@ -1,4 +1,5 @@
-import {$} from 'execa';
+/* eslint-disable no-console */
+import { $ } from 'execa';
 import esbuild from 'esbuild';
 
 const OUTPUT_DIRECTORY = 'dist';
@@ -23,7 +24,7 @@ function build() {
 }
 
 await removeOutputDirectory();
-build().catch((error) => {
+build().catch(error => {
   console.error(error);
   process.exit(1);
 });
