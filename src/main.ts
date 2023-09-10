@@ -1,4 +1,4 @@
-import { hello } from './hello';
+import { hello } from './hello/index.js';
 import { nanoid } from 'nanoid';
 import type { Result } from './types';
 
