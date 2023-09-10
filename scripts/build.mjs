@@ -1,30 +1,19 @@
 /* eslint-disable no-console */
 import { $ } from 'execa';
-import esbuild from 'esbuild';
 
 const OUTPUT_DIRECTORY = 'dist';
+const TS_CONFIG_FILE = 'tsconfig.build.json';
 
-const buildOptions = {
-  entryPoints: ['src/index.ts'],
-  format: 'esm',
-  bundle: true,
-  platform: 'node',
-  external: [],
-  outfile: `${OUTPUT_DIRECTORY}/index.mjs`,
-  logLevel: 'debug',
-};
-
-async function removeOutputDirectory() {
-  console.info(`Cleaning ${OUTPUT_DIRECTORY}`);
-  await $`rm -rf ${OUTPUT_DIRECTORY}`;
+function removeOutputDirectory() {
+  return $`rm -rf ${OUTPUT_DIRECTORY}`;
 }
 
 function build() {
-  return esbuild.build(buildOptions);
+  return $`tsc --project ${TS_CONFIG_FILE}`;
 }
 
 await removeOutputDirectory();
-build().catch(error => {
-  console.error(error);
-  process.exit(1);
-});
+await build();
+
+console.info('Done!');
+
