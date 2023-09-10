@@ -18,6 +18,7 @@ node_modules/
 .npm
 .vite-node
 .eslintcache
+.tsbuildinfo
 *.tsbuildinfo
 
 # Logs
