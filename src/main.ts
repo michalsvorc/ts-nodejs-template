@@ -1,6 +1,6 @@
 import { hello } from './hello/index.js';
 import { nanoid } from 'nanoid';
-import type { Result } from './types';
+import type { Result } from './types.js';
 
 const result: Result = {
   id: nanoid(),
