@@ -1,5 +1,17 @@
 
 
+## [3.1.0](https://github.com/michalsvorc/ts-nodejs-template/compare/v3.0.0...v3.1.0) (2023-09-12)
+
+
+### Features
+
+* **tsconfig:** add moduleResolution field ([b9587e0](https://github.com/michalsvorc/ts-nodejs-template/commit/b9587e0c6c74ce470caf16d39fb4b180e9fdfa5a))
+
+
+### Bug Fixes
+
+* **ts:** missing file import in src/main.ts ([936eb2f](https://github.com/michalsvorc/ts-nodejs-template/commit/936eb2fab6319cf91af4c007c1d1e86662c1e137))
+
 ## [3.0.0](https://github.com/michalsvorc/ts-nodejs-template/compare/v2.1.5...v3.0.0) (2023-09-10)
 
 
