@@ -17,7 +17,7 @@
   "exports": "./dist/index.js",
   "scripts": {
     "boot": "simple-git-hooks init",
-    "build": "node scripts/build.mjs",
+    "build": "node scripts/build.js",
     "dev": "vite-node --watch src",
     "fix": "npm-run-all --sequential fix:*",
     "fix:formatting": "prettier src --write --log-level warn",
