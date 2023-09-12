@@ -12,7 +12,7 @@
     "url": "git+https://github.com/michalsvorc/ts-nodejs-template.git"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=16"
   },
   "exports": "./dist/index.js",
   "scripts": {
