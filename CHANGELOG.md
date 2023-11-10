@@ -1,5 +1,13 @@
 
 
+## [3.2.0](https://github.com/michalsvorc/ts-nodejs-template/compare/v3.1.0...v3.2.0) (2023-11-10)
+
+
+### Features
+
+* **debug:** add Node inspect flag to dev script ([6f01422](https://github.com/michalsvorc/ts-nodejs-template/commit/6f014223f646bb4c487227d6ec6c7b07bc577068))
+* **debug:** enable sourcemaps in tsconfig base ([55f4dd6](https://github.com/michalsvorc/ts-nodejs-template/commit/55f4dd665b80976dc66c53ab2a91084c64f459dc))
+
 ## [3.1.0](https://github.com/michalsvorc/ts-nodejs-template/compare/v3.0.0...v3.1.0) (2023-09-12)
 
 
