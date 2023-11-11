@@ -1,5 +1,12 @@
 
 
+## [3.2.1](https://github.com/michalsvorc/ts-nodejs-template/compare/v3.2.0...v3.2.1) (2023-11-11)
+
+
+### Bug Fixes
+
+* **tsconfig:** set module to nodenext ([5d5ca6e](https://github.com/michalsvorc/ts-nodejs-template/commit/5d5ca6e33b6d2068d9f32220f89a0b49247f45a0))
+
 ## [3.2.0](https://github.com/michalsvorc/ts-nodejs-template/compare/v3.1.0...v3.2.0) (2023-11-10)
 
 
