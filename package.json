@@ -34,11 +34,11 @@
     "test:watch": "vitest watch --dir src"
   },
   "dependencies": {
-    "nanoid": "4.0.2"
+    "nanoid": "5.0.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.8.1",
-    "@commitlint/config-conventional": "^17.8.1",
+    "@commitlint/cli": "^18.4.0",
+    "@commitlint/config-conventional": "^18.4.0",
     "@release-it/conventional-changelog": "^7.0.2",
     "@types/node": "^20.9.0",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
