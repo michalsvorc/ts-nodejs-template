@@ -1,5 +1,12 @@
 
 
+## [3.3.0](https://github.com/michalsvorc/ts-nodejs-template/compare/v3.2.2...v3.3.0) (2023-11-11)
+
+
+### Features
+
+* **release:** prompt instead of automation ([d3a2cd3](https://github.com/michalsvorc/ts-nodejs-template/commit/d3a2cd333e4ee61353f6c6d98cebd7ded4c50006))
+
 ## [3.2.2](https://github.com/michalsvorc/ts-nodejs-template/compare/v3.2.1...v3.2.2) (2023-11-11)
 
 ## [3.2.1](https://github.com/michalsvorc/ts-nodejs-template/compare/v3.2.0...v3.2.1) (2023-11-11)
